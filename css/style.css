@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+a{
+    text-decoration: none;
+    color:aliceblue;
+}
+a:hover{
+    opacity: 0.8;
+}
+
+
+:root {
+    --color-main: pink;
+   
+  }
+
+
+.my-header{
+    padding: 16px 24px 0 24px;
+}
+
+.my-setting-icon{
+    line-height: 40px;
+    font-size: 24px;
+    margin-right: 16px;
+   color: var(--color-main);
+}
+
+.my-user{
+    background-color: var(--color-main);
+}
+
+.my-user:hover{
+    opacity: 0.7;
+}
+
+.my-nav{
+     background-color: var(--color-main);
+     margin: 0;
+}
+
+.my-nav li>a{
+    color: white!important;
+}
+
+.my-subnav li>a{
+    color: black!important;
+}
+
+.my-sale{
+    margin-left: 550px;
+    border-radius: 4px;
+    background-color: #000000;
+    padding: 0 8px;
+}
+
+.my-sale:hover{
+    opacity: 0.8;
+}
+
+.my-icon-hd:first-child{
+    font-size: 64px;
+    color: rgb(255, 196, 0);
+
+}
+
+.my-icon-hd:last-child{
+    font-size: 64px;
+    color: rgb(16, 125, 214);
+}
+
+.my-title{
+    margin: 32px;
+}
+
+.my-add-btn{
+    margin-bottom: 32px;
+}
+
+.form-hienthi{
+    margin: 64px;
+}
+
+.first-p{
+    background-color: floralwhite;
+    padding: 48px;
+}
+
+
+
